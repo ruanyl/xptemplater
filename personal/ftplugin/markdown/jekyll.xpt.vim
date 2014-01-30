@@ -12,7 +12,7 @@ XPTinclude
 
 
 XPT hl " tips about what this snippet does
-XSET javascript=ChooseStr( 'javascript', 'java', 'c', 'python', 'shell', 'php' )
+XSET javascript=ChooseStr( 'javascript', 'java', 'c', 'python', 'bash', 'php' )
 {% highlight ~javascript^ linenos %}
 ~cursor^
 {% endhighlight %}
